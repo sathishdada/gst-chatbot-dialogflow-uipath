@@ -1,0 +1,20 @@
+{
+  "name": "chatbot-bridge",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node index.js"
+  },  
+  "dependencies": {
+    "apiai": "*",
+    "async": "*",
+    "config": "*",
+    "express": "^4.17.1",
+    "log4js": "*",
+    "node-static": "*",
+    "socket.io": "*",
+    "uipath-orchestrator": "*",
+    "unirest": "^0.6.0",
+    "uuid": "*"
+  }
+}

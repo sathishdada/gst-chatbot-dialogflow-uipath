@@ -1,0 +1,24 @@
+{
+    "server": {
+        "host": "https://localhost",
+        "port": 5000
+    },
+    "orchestrator": {
+        "hostname": "platform-community.azurewebsites.net",
+        "tenancyName": "******",//Enter Tenant Name here
+        "usernameOrEmailAddress": "*********",//Enter user name here
+        "password": "**********"//Enter password here
+    },
+    "dialogflow": {
+        "token": "cf79341fb2c94aef92a545198ae2e676" 
+    },
+    "log": {
+        "appenders": {
+            "console": {"type": "console"}
+        },
+        "categories": {
+            "default": {"appenders": ["console"], "level": "trace"}
+        },
+        "replaceConsole": true
+    }
+}
